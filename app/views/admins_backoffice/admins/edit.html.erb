@@ -25,7 +25,7 @@
                             </ul>
                         </div>
                     <% end %>
-
+ 
                     <div class="form-group">
                         <%= form.label :email %>
                         <%= form.text_field :email, class:'form-control', placeholder:'Email do ADM' %>
@@ -33,13 +33,13 @@
 
                     <div class="form-group">
                         <%= form.label :password %>
-                        <%= form.text_field :password, class:'form-control', placeholder:'Password' %>
+                        <%= form.password_field :password, class:'form-control', placeholder:'Password' %>
                        
                     </div>
 
                     <div class="form-group">
                         <%= form.label :password_confirmation %>
-                        <%= form.text_field :password_confirmation, class:'form-control', placeholder:'Password Confirmation' %>
+                        <%= form.password_field :password_confirmation, class:'form-control', placeholder:'Password Confirmation' %>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Salvar</button>
