@@ -8,6 +8,7 @@
 //= require sb-admin-2.min
 //= require metismenu/dist/metisMenu
 //= require @fortawesome/fontawesome-free/js/all.min
+//= require bootstrap-growl-ifightcrime/jquery.bootstrap-growl.min
 
     # <!-- v3.6.0 jquery -->
     # <script src="vendor/jquery/jquery.min.js"></script>

@@ -40,7 +40,11 @@
                         <tr role="row">
                            <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 80px;">#</th>
                            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 62px;">Email</th>
-                           <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 62px;"></th>
+                           <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 62px;">
+                              <%= link_to  new_admins_backoffice_admin_path , class:'btn btn-success btn-circle' do  %>
+                                 <i class="fa fa-plus"></i>
+                              <% end %>
+                           </th>
                         </tr>
                      </thead>
                      <%# <tfoot>
